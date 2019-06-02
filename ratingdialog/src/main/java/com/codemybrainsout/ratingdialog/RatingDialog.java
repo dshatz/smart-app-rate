@@ -287,7 +287,7 @@ public class RatingDialog extends AppCompatDialog implements RatingBar.OnRatingB
         }
     }
 
-    private boolean checkIfSessionMatches(int session) {
+    protected boolean checkIfSessionMatches(int session) {
 
         if (session == 1) {
             return true;
